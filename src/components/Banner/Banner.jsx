@@ -1,7 +1,7 @@
 import React from 'react';
 import BannerImg1 from '../../assets/vector1.png';
 
-const Banner = ({visitedTickets, setVisitedTickets}) => {
+const Banner = ({visitedTickets, setVisitedTickets, completeTask}) => {
 
 
     return (
@@ -18,7 +18,7 @@ const Banner = ({visitedTickets, setVisitedTickets}) => {
                     backgroundImage: `url(${BannerImg1}), linear-gradient(to right, rgba(84, 207, 104, 1), rgba(0, 130, 122, 1))`
                 }}>
                 <p className='text-3xl'>Resolved</p>
-                <h1 className='font-semibold text-6xl'>0</h1>
+                <h1 className='font-semibold text-6xl'>{completeTask.length}</h1>
             </div>
         </div>
     );
