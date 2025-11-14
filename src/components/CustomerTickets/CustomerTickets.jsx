@@ -6,11 +6,11 @@ const CustomerTickets = ({ ticketsPromise, visitedTickets, setVisitedTickets, ha
     
 
     return (
-        <div className='max-w-[1200px] mx-auto flex gap-10'>
+        <div className='max-w-[1200px] mx-auto flex flex-col md:flex-row gap-10 text-center items-center md:items-start'>
             <div className='max-w-[800px]'>
                 <h1 className='text-3xl font-semibold my-5'>Customer Tickets</h1>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 '>
 
                     {
                         availableTickets.map(ticket => (
