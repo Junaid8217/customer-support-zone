@@ -1,0 +1,92 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issue",
+    "description": "User reports that they cannot log in to their account even though they are entering the correct username and password. The login page returns an error, preventing access to the dashboard.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failure",
+    "description": "Customer is unable to complete the payment process at checkout. The payment gateway shows an error message each time, and no confirmation is received, causing frustration for the user.",
+    "customer": "Bob Smith",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1003",
+    "title": "UI Bug",
+    "description": "A button on the mobile view does not respond when clicked. This issue affects navigation, making it difficult for users to access certain pages and perform desired actions within the app.",
+    "customer": "Charlie Lee",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1004",
+    "title": "Feature Request",
+    "description": "Customer has requested the addition of a dark mode feature. This feature would improve user experience during night-time usage and help reduce eye strain on mobile and desktop devices.",
+    "customer": "Diana Prince",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1005",
+    "title": "Server Downtime",
+    "description": "The server has been down, causing all users to lose access to the platform. This has disrupted ongoing operations and needs immediate attention to restore normal service.",
+    "customer": "Ethan Hunt",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1006",
+    "title": "Password Reset",
+    "description": "User reports being unable to reset their account password. The reset link either does not arrive via email or does not allow the creation of a new password, preventing account access.",
+    "customer": "Fiona Gallagher",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1007",
+    "title": "Email Notifications",
+    "description": "Customer reports not receiving email notifications for account updates and alerts. This issue affects communication with users and may result in missed important information.",
+    "customer": "George Clooney",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1008",
+    "title": "App Crash",
+    "description": "The mobile application crashes whenever the user tries to upload images. This problem occurs on multiple devices and operating systems, preventing normal use of the upload functionality.",
+    "customer": "Hannah Montana",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1009",
+    "title": "Data Sync Issue",
+    "description": "Users report that data is not syncing properly between devices. Changes made on one device are not reflected on others, causing inconsistencies and confusion for users relying on multiple devices.",
+    "customer": "Ian Somerhalder",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1010",
+    "title": "Slow Performance",
+    "description": "The application is running very slowly, with long loading times for pages and delayed response for user actions. This significantly impacts user experience and productivity.",
+    "customer": "Julia Roberts",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2024-01-15"
+  }
+]
