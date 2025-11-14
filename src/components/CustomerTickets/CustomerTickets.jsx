@@ -6,7 +6,7 @@ const CustomerTickets = ({ ticketsPromise, visitedTickets, setVisitedTickets, ha
     
 
     return (
-        <div className='max-w-[1200px] mx-auto flex flex-col md:flex-row gap-10 text-center items-center md:items-start'>
+        <div className='max-w-[1200px] mx-auto flex flex-col md:flex-row gap-10 items-center md:items-start'>
             <div className='max-w-[800px]'>
                 <h1 className='text-3xl font-semibold my-5'>Customer Tickets</h1>
 
